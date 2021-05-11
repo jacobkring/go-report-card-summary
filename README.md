@@ -4,7 +4,7 @@ This action prints "Hello World" to the log or "Hello" + the name of a person to
 
 ## Inputs
 
-### `who-to-greet`
+### `percent`
 
 **Required** The percentage to pass the report card. Default `"80"`.
 
