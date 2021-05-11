@@ -6,7 +6,7 @@ This action prints "Hello World" to the log or "Hello" + the name of a person to
 
 ### `who-to-greet`
 
-**Required** The name of the person to greet. Default `"World"`.
+**Required** The percentage to pass the report card. Default `"80"`.
 
 ## Outputs
 
@@ -17,7 +17,7 @@ The time we greeted you.
 ## Example usage
 
 ```yaml
-uses: actions/hello-world-docker-action@master
+uses: jacobkring/go-report-card-summary@v1
 with:
-  who-to-greet: 'Mona the Octocat'
+  percent: '80'
 ```
